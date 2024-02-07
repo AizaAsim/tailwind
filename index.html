@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upwork</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              white1: '#FFFFFF',
+              seperator1: '#d5e0d5',
+              green1: '#14A800',
+              textgray:'#5E6D55',
+              buttongreen:'#108A00',
+              lightgrey1:'#9AAA97',
+              lightgreen1:'#F7FaF7',
+         green2:'#13544E',
+         green3:'#91E6B3',
+         blue1:'#1F57C3',
+         grey2:'#D5E0D5',
+         green5:'#001E00',
+         orange1:'#BC511B',
+         lightgreen2:'#F2F7F2'
+            }
+          }
+        }
+      }
+    </script>
+    <style>   h1 {
+        font-family: Rza, Rza-fallback, Georgia, serif;
+      }</style>
+     
+      
+    </style>
+  </head>
+  <body>
+    <nav class="hidden md:flex md:w-full  md:flex-col md:fixed md:z-50 md:bg-white1  md:top-0 ">
+       <div class="flex gap-8 md:justify-between md:w-full py-[10px] md:px-[180px] ">
+<div class="flex gap-8 md:justify-bewteen md:w-full ">
+    <img class="w-28 h-12" src="images/download.png" alt="">
+    <div class="md:flex md:items-center md:gap-2">
+        <div class="text-base">Find Talent</div>
+<img class="w-[12px] h-[12px]" src="images/arrow.png" alt="">
+    </div>
+    
+    <div class="md:flex md:items-center md:gap-2">
+        <div class="text-base">Find Talent</div>
+<img class="w-[12px] h-[12px]" src="images/arrow.png" alt="">
+    </div>
+    
+    <div class="md:flex md:items-center md:gap-2">
+        <div class="text-base">Find Talent</div>
+<img class="w-[12px] h-[12px]" src="images/arrow.png" alt="">
+    </div>
+    
+    <div class="md:flex md:items-center md:gap-2">
+        <div class="text-base">Find Talent</div>
+
+    </div>
+
+   
+</div>
+ <div class="md:flex items-center gap-4 ">
+        <div class="md:flex md:justify-between md:items-center md:px-[20px]   md:border-solid md:border-2 md:border-grey2 md:rounded-full">
+        <div class="flex">
+    <img class="w-[20px] h-[36px] py-[10px]" src="images/search-icon.png" alt="">
+    <input  class="border-none placeholder:text-black placeholder:font-medium" type="text" name="" id="" placeholder="Search">
+    </div>
+    <div class="flex gap-2">
+        <div class="md:w-[1px] md:h-full md:bg-seperator1"> </div>
+        <div class="flex md:items-center md:gap-2">
+            <div class="text-base text-textgray">Talent</div>
+            <img class="w-[12px] h-[12px]" src="images/arrow.png" alt="">
+        </div>
+    </div>
+        </div>
+            <div class="text-base text-black w-[70px] font-medium">Log in</div>
+            <button class=" text-white1 rounded-full py-2 w-[120px] bg-buttongreen border-2 border-solid border-buttongreen" >Sign up</button>
+    </div> 
+</div> 
+<div class="w-full h-[1px] bg-seperator1"></div>
+<div class="md:w-full py-[15px] md:px-[180px] md:text-base md:flex md:gap-5 ">
+    <div>Development & IT</div>
+<div>AI Services</div>
+<div>Design and Creative</div>
+<div>Sales & Marketing</div>
+<div>Admin & Customer Supprt</div>
+<div class="flex md:items-center md:gap-2">
+    <div class="text-base text-textgray">More</div>
+    <img class="w-[12px] h-[12px]" src="images/arrow.png" alt="">
+</div>
+</div>
+
+    </nav>
+     <nav class="flex flex-col w-full md:hidden">
+        <div class="bg-white1 px-[10px] py-[10px]">
+          <div class="flex flex-row justify-between">
+            <div class="flex items-center gap-4">
+              <img class="w-6 h-5" src="images/menu.png" alt="menu" />
+              <img class="w-20 h-9" src="images/download.png" alt="logo" />
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-14 h-6 font-medium">Sign up</div>
+              <img class="w-6 h-6" src="images/search-icon.png" alt="logo" />
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-px bg-seperator1"></div>
+      </nav>
+<div class="w-full md:mx-auto md:w-[70%]">
+      <section class="w-full px-[20px] my-6 md:mt-[200px]   ">
+        <div class="md:flex gap-[290px]">
+            <div>
+        <h1 class="text-green1 text-5xl font-medium mb-3.5 md:text-7xl">
+          How work <br/>
+          Should work
+        </h1>
+        <p class="text-textgray text-xl font-medium tracking-tight mb-6 md:text-2xl">Forget the old rules.You can have the <br/>best people.Right now.Right here. </p>
+        <button class="bg-buttongreen py-2 px-6  rounded-3xl text-white1 mb-10">Get started</button>
+     <div class=" flex flex-col">
+          <div class="text-lightgrey1 text-base mb-3">Trusted by</div>
+        <div class="flex gap-3">
+          <img class="w-24" src="images/microsoft.svg" alt="">
+          <img class="w-[72px]" src="images/airbnb.svg" alt="">
+          <img class="w-12" src="images/bissell.svg" alt="">
+      </div></div></div>
+      <img class=" hidden md:w-[40%] md:h-[40%] md:block " src="images/searching-talent@1x.webp" alt="">
+</div>
+      
+      </section>
+  
+  
+  <section class="w-full px-[20px] my-6 flex flex-col md:flex-row  md:gap-20 md:my-20">
+      <div class="flex  justify-center items-center md:justify-start md:h-96 md:w-[40%]">
+          <div class="h-72 w-3.8/5 md:h-full md:w-full"><img class="rounded-lg w-full h-full" src="./images/video.webp" alt=""></div>
+        
+      </div>
+      <div> <h1 class="text-3xl my-6 md:text-4xl">Up your work game,it's<br class="md:hidden"/> easy</h1>
+      <div class="flex flex-col gap-3 my-6" >
+          <div class="flex gap-3 ">
+              <img class="w-6 h-6" src="images/edit.png" alt="">
+              <div class="flex flex-col gap-1"> 
+                  <div class="text-xl text-black font-medium md:text-2xl">
+                      No cost to join
+                  </div>
+                  <div class="text-sm text-black  md:text-sm ">
+                  Register and browse proffesionals,explore projects or even book a consultation     
+                  </div>
+              </div>
+          </div>
+          <div class="flex gap-3 ">
+              <img class="w-6 h-6" src="images/edit.png" alt="">
+              <div class="flex flex-col gap-1"> 
+                  <div class="text-xl text-black font-medium md:text-2xl">
+                      No cost to join
+                  </div>
+                  <div class="text-sm text-black md:text-sm ">
+                  Register and browse proffesionals,explore projects or even book a consultation     
+                  </div>
+              </div>
+          </div>
+          <div class="flex gap-3 ">
+              <img class="w-6 h-6" src="images/edit.png" alt="">
+              <div class="flex flex-col gap-1"> 
+                  <div class="text-xl text-black font-medium md:text-2xl">
+                      No cost to join
+                  </div>
+                  <div class="text-sm text-black  md:text-sm ">
+                  Register and browse proffesionals,explore projects or even book a consultation     
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="md:flex md:gap-5">
+      <button class="hidden text-white1 rounded-full py-2 px-6 bg-buttongreen border-2 border-solid border-buttongreen md:block" >Sign up for free</button>
+     <button class="text-buttongreen rounded-full py-2 px-6 bg-white1 border-2 border-solid border-buttongreen " >Learn how to hire</button>
+    </div></div>
+  </section>
+  
+  
+  
+  
+  <section class="w-full px-[20px] my-6 flex flex-col md:my-20 md:px-[0px]">
+  <h1 class="text-4xl mb-3 font-medium md:text-5xl">Browse talent by<br/> category</h1>
+  <p class="text-textgray text-base mb-8">Looking for work ?<a class="text-green1 underline" > Browse jobs</a></p>
+  
+  <div class="flex flex-col gap-5 ">
+  <div class="flex flex-col gap-12 md:flex-row ">
+      <div class="bg-lightgreen1 rounded-lg flex flex-col p-[15px] h-28  md:px-[48px]">
+  
+  <div class='text-2xl font-medium text-black mb-6'>Development & IT</div>
+  <div class="flex gap-9">
+      <div class="flex gap-2 items-center">
+          <img class="w-3 h-3" src="images/star (1).png"></img>
+          <div class="text-base text-textgray">4.5/5</div>
+      </div>
+      <div class="text-base text-textgray">1853 skills</div>
+  </div>
+  
+      </div>
+      <div class="bg-lightgreen1 rounded-lg flex flex-col p-[15px] h-28  md:px-[48px]">
+  
+          <div class='text-2xl font-medium text-black mb-6'>Development & IT</div>
+          <div class="flex gap-9">
+              <div class="flex gap-2 items-center">
+                  <img class="w-3 h-3" src="images/star (1).png"></img>
+                  <div class="text-base text-textgray">4.5/5</div>
+              </div>
+              <div class="text-base text-textgray">1853 skills</div>
+          </div>
+          
+              </div>
+              <div class="bg-lightgreen1 rounded-lg flex flex-col p-[15px] h-28  md:px-[48px] ">
+  
+                  <div class='text-2xl font-medium text-black mb-6'>Development & IT</div>
+                  <div class="flex gap-9">
+                      <div class="flex gap-2 items-center">
+                          <img class="w-3 h-3" src="images/star (1).png"></img>
+                          <div class="text-base text-textgray">4.5/5</div>
+                      </div>
+                      <div class="text-base text-textgray">1853 skills</div>
+                  </div>
+                  
+                      </div>
+                      <div class="bg-lightgreen1 rounded-lg flex flex-col p-[15px] h-28  md:px-[48px]">
+  
+                          <div class='text-2xl font-medium text-black mb-6'>Development & IT</div>
+                          <div class="flex gap-9">
+                              <div class="flex gap-2 items-center">
+                                  <img class="w-3 h-3" src="images/star (1).png"></img>
+                                  <div class="text-base text-textgray">4.5/5</div>
+                              </div>
+                              <div class="text-base text-textgray">1853 skills</div>
+                          </div>
+                          
+                              </div>
+  </div>
+  
+  <div class="flex flex-col gap-12  md:flex-row">
+      <div class="bg-lightgreen1 rounded-lg flex flex-col p-[15px] h-28  md:px-[48px]">
+  
+  <div class='text-2xl font-medium text-black mb-6'>Development & IT</div>
+  <div class="flex gap-9">
+      <div class="flex gap-2 items-center">
+          <img class="w-3 h-3" src="images/star (1).png"></img>
+          <div class="text-base text-textgray">4.5/5</div>
+      </div>
+      <div class="text-base text-textgray">1853 skills</div>
+  </div>
+  
+      </div>
+      <div class="bg-lightgreen1 rounded-lg flex flex-col p-[15px] h-28 hidden md:flex  md:px-[48px]">
+  
+          <div class='text-2xl font-medium text-black mb-6'>Development & IT</div>
+          <div class="flex gap-9">
+              <div class="flex gap-2 items-center">
+                  <img class="w-3 h-3" src="images/star (1).png"></img>
+                  <div class="text-base text-textgray">4.5/5</div>
+              </div>
+              <div class="text-base text-textgray">1853 skills</div>
+          </div>
+          
+              </div>
+              <div class="bg-lightgreen1 rounded-lg flex flex-col p-[15px] h-28 hidden md:flex  md:px-[48px]">
+  
+                  <div class='text-2xl font-medium text-black mb-6'>Development & IT</div>
+                  <div class="flex gap-9">
+                      <div class="flex gap-2 items-center">
+                          <img class="w-3 h-3" src="images/star (1).png"></img>
+                          <div class="text-base text-textgray">4.5/5</div>
+                      </div>
+                      <div class="text-base text-textgray">1853 skills</div>
+                  </div>
+                  
+                      </div>
+                      <div class="bg-lightgreen1 rounded-lg flex flex-col p-[15px] h-28  hidden md:flex  md:px-[48px]">
+  
+                          <div class='text-2xl font-medium text-black mb-6'>Development & IT</div>
+                          <div class="flex gap-9">
+                              <div class="flex gap-2 items-center">
+                                  <img class="w-3 h-3" src="images/star (1).png"></img>
+                                  <div class="text-base text-textgray">4.5/5</div>
+                              </div>
+                              <div class="text-base text-textgray">1853 skills</div>
+                          </div>
+                          
+                              </div>
+                              <div  class="text-green1  text-base font-medium md:hidden" >Show more(3)</div>
+  </div>
+  </div>
+  </section>
+  
+  
+  
+  
+  <section class="w-full  my-6 flex flex-col">
+  
+  
+  <div class="flex flex-col md:flex-row-reverse ">
+      <div class="w-full  h-48 md:h-auto md:w-[55%] bg-[url('images/video.webp')] bg-cover bg-top bg-no-repeat md:rounded-r-lg"></div>
+  
+  <div class="w-full bg-green2 px-[15px] py-[20px] md:md:rounded-l-lg  md:py-[35px] md:px-[30px]">
+      <div class="text-2xl text-white1 mb-4 md:mb-[60px]">Enterprise Suite</div>
+      <h1 class="text-white1 text-4xl font-medium mb-3 md:text-6xl md:mb-12">This is how <br/><span class="text-green3 "> good companies <br/> find good company.</span></h1>
+      <p class="text-white1 text-lg mb-3 md:text-[18px] md:mb-10">Access the top 1% of talent on Upwork, and a full suite of hybrid workforce management tools. This is how innovation works now.</p>
+  
+  
+  
+      <div class="flex flex-col gap-3 mb-4 md:mb-10">
+          <div class="flex gap-3 items-center">
+              <img class="w-5 h-5" src="images/headphones.png" alt="">
+          <div class="text-white1 text-lg md:text-[18px] ">Access expert talent to fill your skill gaps</div>
+          </div>
+          <div class="flex gap-3 items-center">
+              <img class="w-5 h-5" src="images/headphones.png" alt="">
+          <div class="text-white1 text-lg md:text-[18px] ">Access expert talent to fill your skill gaps</div>
+          </div>
+          <div class="flex gap-3 items-center">
+              <img class="w-5 h-5" src="images/headphones.png" alt="">
+          <div class="text-white1 text-lg md:text-[18px] ">Access expert talent to fill your skill gaps</div>
+          </div>
+      </div>
+  <button class="rounded-full px-[30px] py-[10px] bg-white1 text-green2">Learn more</button>
+  </div>
+  </div>
+  </section>
+  
+  <section class="w-full my-6 bg-cover bg-top bg-no-repeat bg-[url('images/find-talent-mobile.jpg')] p-[15px] md:my-20 md:rounded-xl md:bg-[url('images/find-talent-2x.jpg')] md:p-[35px]">
+  <p class="text-xl text-white1 mb-24 md:text-2xl">For clients</p>
+  <h1 class="font-medium text-5xl text-white1 mb-5 md:text-7xl">Find talent <br/> your way </h1>
+  <p class="text-white1 text-base mb-2 md:w-[400px] md:mb-[40px]">Work with the largest network of independent professionals and get things done—from quick turnarounds to big transformations.</p>
+  <div class="flex flex-col gap-4 md:flex-row md:gap-10">
+  <div class="bg-green1 text-white1 rounded-lg flex justify-between p-[15px] tracking-tighter md:flex-col  md:gap-5 md:pe-[160px] ">
+      <div class=" text-white text-2xl  font-medium pt-5 leading-7 md:pt-[0px] md:text-4xl">Post a job <br/>and hire a pro </div>
+      <div class="flex items-end md:items-start">    <div class="text-white text-sm ">Target Marketplace &xrarr;</div></div>
+  
+  </div>
+
+
+  <div class="bg-green1 text-white1 rounded-lg flex justify-between p-[15px] tracking-tighter md:flex-col md:gap-5 md:pe-[160px] ">
+    <div class=" text-white text-2xl  font-medium pt-5 leading-7 md:pt-[0px] md:text-4xl">Post a job <br/>and hire a pro </div>
+    <div class="flex items-end md:items-start">    <div class="text-white text-sm ">Target Marketplace &xrarr;</div></div>
+
+</div>
+
+<div class="bg-green1 text-white1 rounded-lg flex justify-between p-[15px] tracking-tighter md:flex-col md:gap-5 md:pe-[160px] ">
+    <div class=" text-white text-2xl  font-medium pt-5 leading-7 md:pt-[0px] md:text-4xl">Post a job <br/>and hire a pro </div>
+    <div class="flex items-end md:items-start">    <div class="text-white text-sm ">Target Marketplace &xrarr;</div></div>
+
+</div>
+
+  </div>
+  
+  
+  </section>
+  
+  
+  
+  
+  <section class="w-full  my-6 flex flex-col md:flex-row md:my-20 md:gap-12 md:items-stretch ">
+  <div class="px-[15px] pb-12 pt-10 md:rounded-xl md:bg-lightgreen2 md:w-full"><h1 class="text-5xl leading-12 tracking-tight mb-8 md:text-7xl">Why businesses <br/> turn to Upwork</h1>
+  <div class="flex flex-col gap-16">
+      <div class="flex gap-3 items-start">
+          <img class=" w-6 pt-2 md:w-[24px] " src="images/star-black-shape-in-a-circle-outline-favourite-interface-symbol.png" alt="">
+          <div class="flex flex-col gap-3">
+              <div class=" text-2xl font-medium tracking-tighter md:text-4xl">Proof of quality</div>
+              <div class="text-base text-textgray tracking-tighter md:text-base">Check any pro’s work samples, client reviews, and identity verification.</div>
+          </div>
+      </div>
+      <div class="flex gap-3 items-start">
+          <img class=" w-6 pt-2 md:w-[24px] " src="images/star-black-shape-in-a-circle-outline-favourite-interface-symbol.png" alt="">
+          <div class="flex flex-col gap-3">
+              <div class=" text-2xl font-medium tracking-tighter md:text-4xl">Proof of quality</div>
+              <div class="text-base text-textgray tracking-tighter md:text-base">Check any pro’s work samples, client reviews, and identity verification.</div>
+          </div>
+      </div>
+      <div class="flex gap-3 items-start">
+          <img class=" w-6 pt-2 md:w-[24px] " src="images/star-black-shape-in-a-circle-outline-favourite-interface-symbol.png" alt="">
+          <div class="flex flex-col gap-3">
+              <div class=" text-2xl font-medium tracking-tighter md:text-4xl">Proof of quality</div>
+              <div class="text-base text-textgray tracking-tighter md:text-base">Check any pro’s work samples, client reviews, and identity verification.</div>
+          </div>
+      </div>
+  </div>
+  
+  
+  </div>
+  
+  
+  
+  <div class="bg-green1 py-[45px] px-[30px] flex mb-5 md:rounded-xl md:pt-[220px] md:items-end md:mb-0 md:relative  ">
+  <div class="text-white w-6/12 md:w-[200%] md:pl-[50px]">
+  <p class="text-3xl text-white font-medium mb-5">We're  the world's work  marketplace</p> 
+  <div class="flex flex-col gap-3">
+  
+  <div class="flex gap-3 items-start">
+      <img class='w-5 pt-px'src="images/favorite.png" alt="">
+  <div class="flex flex-col gap-2">
+     <div class="text-white1 text-2xl md:text-3xl font-medium"> 4.9/5</div>
+     <div class="text-white1 text-base"> Clients rate proffesionals on Upwork</div>
+  </div>
+  </div>
+  
+  <div class="flex gap-3 items-start">
+      <img class='w-5 pt-px'src="images/favorite.png" alt="">
+  <div class="flex flex-col gap-2">
+     <div class="text-white1 text-2xl md:text-3xl font-medium"> 4.9/5</div>
+     <div class="text-white1 text-base"> Clients rate proffesionals on Upwork</div>
+  </div>
+  </div>
+  
+  </div>
+  </div>
+  <div class=" w-6/12" >
+  <img class="mt-7 md:absolute md:w-80  md:z-[10]  md:top-10 md:right-[290px]" src="images/person-with-headset.webp" alt="">
+  
+  </div>
+  
+  </div>
+  
+  
+  <div class="px-[15px] mt-3 md:hidden" >
+      <h1 class="text-4xl font-medium mb-5">Sign up to hire<br/> talent for any job</h1>
+      <button class="bg-buttongreen py-2 px-7  rounded-3xl text-white1 mb-10">Find talent</button>
+  
+  </div>
+  
+  
+  </section>
+  
+  
+  
+  <section class="w-full  my-6 flex flex-col">
+      <div class="flex flex-col md:flex-row">
+          <div class="w-full md:w-[40%]  "><img class="w-full h-full md:rounded-l-lg" src="images/section7.webp" alt=""></div>
+  
+          <div class="bg-blue1 p-[15px] pb-[8px] text-white1 md:rounded-r-lg md:py-[40px]">
+  <div  class="text-xl mb-6 md:text-2xl">For talent</div>
+  <h1 class="text-white text-5xl mb-5 md:text-7xl">Find great <br> work</h1>
+  <p class="text-white text-base md:text-lg md:w-[500px]">Meet clients you’re excited to work with and take
+      your career or business to new heights.</p>
+  <div class="h-px bg-seperator1 mt-12 mb-5"></div>
+  
+  <div class="flex flex-col gap-4 mb-6 md:flex-row">
+      <div class="flex gap-4">
+          <div class="w-6/12 text-base text-white1 md:text-lg md: w-[250px]">Find opportunities for every stage of your freelance career </div>
+          <div class="w-6/12 text-base text-white1 md:text-lg md: w-[250px]">Control when, where, and how you work</div>
+  
+      </div>
+      <div class="w-6/12 text-base text-white1 md:text-lg md: w-[250px]">
+          Explore different ways to earn     
+      </div>
+  </div>
+  <button class="bg-white1 py-2 px-8  rounded-3xl text-blue1 mb-10 md:mt-[30px] ">Find opputunities</button>
+  
+  
+          </div>
+  
+      </div>
+  </section>
+  
+  
+  
+  
+  
+  <section class="w-full  my-6 p-[15px] md:my-20">
+  
+  <h1 class="text-4xl mb-7 md:text-7xl md:w-[700px]">Trusted by leading brands and startups</h1>
+  <div class="flex flex-col gap-7 md:flex-row">
+  
+  <div class="p-[15px] bg-green2 rounded-xl">
+  <div class="flex justify-center mb-5 md:justify-start">
+  <img src="images/nasdaq-light.svg" alt="">
+  </div>
+  <div class="font-medium text-xl text-white px-4 mb-5">“Upwork enables us to differentiate ourselves from our competitors and produce content at a higher caliber.”</div>
+  <div class="text-base text-grey2 mb-12 px-4">Josh Machiz, Chief Digital Officer</div>
+  <div class="text-base text-grey2 mb-3 px-4">Results</div>
+  <div class="h-[1px] px-4 bg-grey2 mb-10"></div>
+  <div class="flex flex-col gap-3">
+      <div class="flex flex-col gap-3">
+      <div class="font-medium text-2xl text-white1">Emmy Winning</div>
+  <div class="font-medium text-base text-grey2">Facebook Watch program</div></div>
+  <div class="flex flex-col gap-3">
+      <div class="font-medium text-2xl text-white1">Emmy Winning</div>
+  <div class="font-medium text-base text-grey2">Facebook Watch program</div></div>
+  </div>
+  
+  </div>
+  
+  
+  
+  
+  
+  <div class="p-[15px] bg-orange1 rounded-xl">
+      <div class="flex justify-center mb-5 mt-2 md:justify-start">
+      <img src="images/microsoft-lg-light.svg" alt="">
+      </div>
+      <div class="font-medium text-xl text-white px-4 mb-5">“Upwork enables us to differentiate ourselves from our competitors and produce content at a higher caliber.”</div>
+      <div class="text-base text-grey2 mb-12 px-4">Josh Machiz, Chief Digital Officer</div>
+      <div class="text-base text-grey2 mb-3 px-4">Results</div>
+      <div class="h-[1px] px-4 bg-grey2 mb-10"></div>
+      <div class="flex flex-col gap-3">
+          <div class="flex flex-col gap-3">
+          <div class="font-medium text-2xl text-white1">Emmy Winning</div>
+      <div class="font-medium text-base text-grey2">Facebook Watch program</div></div>
+      <div class="flex flex-col gap-3">
+          <div class="font-medium text-2xl text-white1">Emmy Winning</div>
+      <div class="font-medium text-base text-grey2">Facebook Watch program</div></div>
+      </div>
+      
+      </div>
+  
+  
+  
+  </div>
+  </section>
+  
+  <section class="w-full  my-6 p-[15px] ">
+  <div class="rounded-xl bg-lightgreen1 p-[24px]">
+  <h1 class="text-3xl font-medium  mb-4 md:text-4xl">We support Ukraine</h1>
+  <p class="text-textgray font-medium text-lg ">We are taking action to help our freelancers, our clients, and the people of Ukraine—and so can you.</p>
+  
+  <div class="flex  pt-7 gap-20 md:justify-between">
+      <button class=" mt-12 text-buttongreen rounded-full py-2 px-8  bg-white1 border-2 border-solid border-buttongreen " >Learn more</button>
+  <img class="w-24 md:w-36 md:mt-[-90px]" src="images/ukraine-main.jpg" alt="">
+  </div>
+  </div>
+  
+  </section> 
+  
+  
+  <section class="w-full  my-6 p-[20px] md:my-20" >
+  <div class="flex flex-col gap-12 md:flex-row md:gap-32">
+  
+      <div class="text-2xl flex  gap-5 text-grey2 font-medium md:flex-col md:text-5xl ">
+          <div class="text-buttongreen">Top skills</div>
+          <div>Top skills</div>
+          <div >Top skills</div>
+          <div class="hidden md:block">Top skills</div>
+      </div>
+  <div class="flex gap-8 md:gap-32">
+      <div class=" flex flex-col gap-3 text-textgray text-base md:text-3xl">
+          <div>Generative AI Specialists</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI Specialists</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI Specialists</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+      </div>
+      
+      <div class=" flex flex-col gap-3 text-textgray text-base md:text-3xl ">
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI Specialists</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+          <div>Generative AI</div>
+  
+          <div>Generative AI</div>
+      </div>
+  </div>
+  
+  
+  </div>
+  
+  </section>
+  
+  
+  
+  <section class="w-full  my-6 p-[20px] md:my-36   ">
+      <footer class="rounded-xl bg-green5 p-[15px] md:w-[120%] md:m-[-100px]">
+        <div class="hidden md:block md:mb-[130px] md:py-[30px] md:px-[100px]">
+<div  class="md:flex md:gap-48 md:text-white1">
+    <div class="md:flex md:flex-col md:gap-3 md:text-base md:w-[250px]">
+        <h2 class="md:mb-5">For Clients</h2>
+        <div>How to Hire</div>
+        <div>Project Catalog</div>
+        <div>Hire an Agency</div>
+        <div>Enterprise</div>
+        <div>How to Hire</div>
+       
+    </div>
+    <div class="md:flex md:flex-col md:gap-3 md:text-base md:w-[250px]">
+        <h2 class="md:mb-5">For Clients</h2>
+        <div>How to Hire</div>
+        <div>Talent Marketplace</div>
+        <div>Project Catalog</div>
+      
+        <div>Talent Marketplace</div>
+        <div>Project Catalog</div>
+        <div>Hire an Agency</div>
+        <div>Enterprise</div>
+    </div>
+    <div class="md:flex md:flex-col md:gap-3 md:text-base md:w-[250px]">
+        <h2 class="md:mb-5">For Clients</h2>
+        <div>How to Hire</div>
+        <div>Talent Marketplace</div>
+   
+        <div>Enterprise</div>
+        <div>How to Hire</div>
+        <div>Talent Marketplace</div>
+        <div>Project Catalog</div>
+        <div>Hire an Agency</div>
+        <div>Enterprise</div>
+    </div>
+    <div class="md:flex md:flex-col md:gap-3 md:text-base md:w-[250px]">
+        <h2 class="md:mb-5">For Clients</h2>
+        <div>How to Hire</div>
+        
+        <div>Project Catalog</div>
+        <div>Hire an Agency</div>
+        <div>Enterprise</div>
+    </div>
+</div>
+
+
+        </div>
+  <div class="flex flex-col gap-4 mb-8 md:hidden">
+      <div class="text-white1 text-base flex justify-between ">
+          <div>For Clients</div>
+  <img  class="w-[14px]" src="images/arrow (1).png" alt="">
+  
+      </div>
+      <div class="h-[1px] bg-white1"></div>
+      <div class="text-white1 text-base flex justify-between ">
+          <div>For Clients</div>
+  <img  class="w-[14px]" src="images/arrow (1).png" alt="">
+  
+      </div>
+      <div class="h-[1px] bg-white1"></div>
+      <div class="text-white1 text-base flex justify-between ">
+          <div>For Clients</div>
+  <img  class="w-[14px]" src="images/arrow (1).png" alt="">
+  
+      </div>
+      <div class="h-[1px] bg-white1"></div><div class="text-white1 text-base flex justify-between ">
+          <div>For Clients</div>
+  <img  class="w-[14px]" src="images/arrow (1).png" alt="">
+  
+      </div>
+      <div class="h-[1px] bg-white1"></div>
+      
+  </div>
+  <div class="flex flex-col gap-5 mb-8 md:flex-row md:justify-between">
+  <div class="flex flex-col gap-2 md:flex-row">
+      <div class="font-medium text-base text-white1">Follow Us</div>
+      <div class="flex gap-2">
+          <img class="w-[34px] md:h-[34px]" src="images/facebook (1).png" alt="">
+          <img class="w-[34px] md:h-[34px]" src="images/facebook (1).png" alt="">
+  
+          <img class="w-[34px] md:h-[34px] " src="images/facebook (1).png" alt="">
+  
+          <img class="w-[34px] md:h-[34px]" src="images/facebook (1).png" alt="">
+          <img class="w-[34px] md:h-[34px]" src="images/facebook (1).png" alt="">
+  
+      </div>
+  </div>
+  
+  <div class="flex flex-col gap-2 md:flex-row">
+      <div class="font-medium text-base text-white1">Mobile app</div>
+      <div class="flex gap-2">
+          <img class="w-[34px] md:h-[34px]" src="images/facebook (1).png" alt="">
+          <img class="w-[34px] md:h-[34px]" src="images/facebook (1).png" alt="">
+  
+  
+      </div>
+  </div>
+  
+  </div>
+  <div class="h-[1px] bg-white1 mb-8"></div>
+  <div class="flex flex-col gap-4 text-white1 text-base pb-8 md:flex-row md:gap-10">
+      <div>© 2015 - 2024 Upwork® Global Inc.</div>
+      <div>Terms of Service</div>
+      <div>Privacy Policy</div>
+      <div>CA Notice at Collection</div>
+      <div>Cookie Settings</div>
+      <div>Accessibility</div>  
+  </div>
+  
+      </footer>
+  </section>
+  
+  
+</div>
+  
+    </body>
+  </html>
+ 
+   
